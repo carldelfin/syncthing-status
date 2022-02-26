@@ -6,11 +6,9 @@ R script that checks for [Syncthing](https://syncthing.net/) connections, and di
 
 Download the script and make sure it's executable (`chmod +x syncthing_status.R`). Add the following your `polybar.conf`:
 
-```bash
-; --------------------------------------------------------------------------------------------------                     
-[module/syncthing]                                                                                                       
-; --------------------------------------------------------------------------------------------------                     
-                                                                                                                        
+```
+[module/syncthing]
+
 type = custom/script                                                                                                     
 exec = "Rscript ~/dotfiles/scripts/syncthing_status.R"                                                                   
 interval = 60                                                                                                            
