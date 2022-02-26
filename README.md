@@ -9,10 +9,10 @@ Download the script and make sure it's executable (`chmod +x syncthing_status.R`
 ```
 [module/syncthing]
 
-type = custom/script                                                                                                     
-exec = "Rscript ~/dotfiles/scripts/syncthing_status.R"                                                                   
-interval = 60                                                                                                            
-format = "<label>"    
+type = custom/script
+exec = "Rscript ~/dotfiles/scripts/syncthing_status.R"
+interval = 60
+format = "<label>"
 ```
 
 asd.
