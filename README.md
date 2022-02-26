@@ -4,7 +4,7 @@ R script that checks for [Syncthing](https://syncthing.net/) connections and dis
 
 ## Usage
 
-Download the script and make sure it's executable (`chmod +x syncthing_status.R`). Make sure you have [httr](https://cran.r-project.org/web/packages/httr/), [XML](https://cran.r-project.org/web/packages/XML/), [magrittr](https://magrittr.tidyverse.org/), [dplyr](https://dplyr.tidyverse.org/), and [stringr](https://stringr.tidyverse.org/) installed. You'll also need [Fontawesome](https://fontawesome.com/) installed. Then add something like the following your `polybar.conf`:
+Download the script and make sure it's executable (`chmod +x syncthing_status.R`). Make sure you have [httr](https://cran.r-project.org/web/packages/httr/), [XML](https://cran.r-project.org/web/packages/XML/), [magrittr](https://magrittr.tidyverse.org/), [dplyr](https://dplyr.tidyverse.org/), and [stringr](https://stringr.tidyverse.org/) installed. You'll also need [Fontawesome](https://fontawesome.com/) if you want icons. Then add something like this to your `polybar.conf`:
 
 ```
 [module/syncthing]
