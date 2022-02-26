@@ -43,6 +43,9 @@ if (length(res) <= 1) {
                       connected = as.integer(lapply(res_parsed, "[[", 4)))
 
     # replace full ID with name
+    # note that id_part contains three characters from the full Syncthing ID
+    # and name contains hostnames for the corresponding Syncthing connection;
+    # change accordingly!
     id_part <- c(".*7LI.*", ".*HZ4.*", ".*6YB.*", ".*UQQ.*")
     name <- c("wintermute", "aleph", "neuromancer", "galaxy")
     out$id <- stringr::str_replace_all(out$id, setNames(name, id_part))
