@@ -1,6 +1,6 @@
 ## syncthing-status
 
-R script that checks for [Syncthing](https://syncthing.net/) connections, and displays output for use with [Polybar](https://github.com/polybar/polybar).
+R script that checks for [Syncthing](https://syncthing.net/) connections and displays some output for use with [Polybar](https://github.com/polybar/polybar). Why use an overengineered R script for something that probably could be more easily achieved using Python or just plain Bash? Beacuse I want to get better at using R for general programming :man_shrugging:.
 
 ## Usage
 
